@@ -1,6 +1,7 @@
-$(document).ready(function ()) {
-
-
+$(document).ready(function () {
+    //举个🌰
+    animationHover("#hover", "tada");
+    animationClick(".item2", "lightSpeedIn");
     //封装个hover              
     function animationHover(element, animation) {
         element = $(element);
@@ -30,4 +31,4 @@ $(document).ready(function ()) {
             }
         );
     };
-}
+});
